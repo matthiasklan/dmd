@@ -570,7 +570,7 @@ function anchorName (options) {
       .replace(/:/g, '_')
       .replace(/~/g, '..')
       .replace(/\(\)/g, '_new')
-      .replace(/#/g, '+')
+      .replace(/#/g, '_')
   )
 }
 
